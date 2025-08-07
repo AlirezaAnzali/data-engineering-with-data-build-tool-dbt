@@ -1,0 +1,30 @@
+[0m15:42:02.476952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013DA62D2B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013DA5054510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013DA504FC10>]}
+
+
+============================== 15:42:02.482503 | adee07c6-5ecb-42e2-a6c4-27ff0735c671 ==============================
+[0m15:42:02.482503 [info ] [MainThread]: Running with dbt=1.10.6
+[0m15:42:02.483508 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\aenga\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m15:42:02.516405 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\aenga\.dbt
+[0m15:42:32.803646 [debug] [MainThread]: Starter project path: C:\Users\aenga\anaconda3\envs\ducktest\Lib\site-packages\dbt\include\starter_project
+[0m15:42:32.847825 [info ] [MainThread]: 
+Your new dbt project "nyc_parking_violations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:42:32.847825 [info ] [MainThread]: Setting up your profile.
+[0m15:42:44.203725 [info ] [MainThread]: Profile nyc_parking_violations written to C:\Users\aenga\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m15:42:44.207504 [debug] [MainThread]: Command `dbt init` succeeded at 15:42:44.206451 after 41.83 seconds
+[0m15:42:44.209261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D9D92F5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013D9D9AF8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013DA4F51990>]}
+[0m15:42:44.210211 [debug] [MainThread]: Flushing usage events
+[0m15:42:44.628150 [debug] [MainThread]: An error was encountered while trying to flush usage events
